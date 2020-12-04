@@ -13,9 +13,9 @@ int main()
     int x, y, z;
     cout << "Enter values of two variables: ";
     cin >> x >> y;
-    cout << "The original values of x and y are: " << x << " and " << y << endl;
+    cout << "The original value of x and y are: " << x << " " << y << endl;
     z = x;
     x = y;
     y = z;
-    cout << "The swapped values of x and y are: " << x << " and " << y << endl;
+    cout << "The swapped values of x and y are: " << x << " " << y << endl;
 }

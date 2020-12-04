@@ -38,7 +38,7 @@ class Complex {
 };
 
 int Complex::getId()
-{ /* defining class member function, usage of :: operator is necessary. */
+{ /* defining class member function, usage of :: (scope resolution) operator is necessary. */
     return id;
 }
 
