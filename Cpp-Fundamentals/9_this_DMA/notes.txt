@@ -1,0 +1,16 @@
+this is a keyword in C++
+this a local object pointer in every instance member function which contains address of the caller object
+You cannot modify this pointer.
+this does not exist in main(), static functions and friend functions
+
+
+        SMA                                                     DMA
+        ---                                                     ---
+1.      Static Memory Allocation                                Dynamic Memory Allocation
+2.      int a;                                                  int *a = (int *)malloc(int);                                                 
+        float y;                                                float *y = new float;
+        int *p;
+        complex c1(1,2);                                        Complex *c1 = new Complex(1,2);
+3.      Memory can't be released during                         Memory can be released during runtime
+        runtime                                                 delete p;
+4.      

@@ -1,0 +1,21 @@
+1. Either make or not make constructor, it will still be called when making an object.
+2. If we make a constructor then compiler doesn't run the default constructor.
+
+If class has no constructor
+    then compiler defines two constructors:
+        1. defautl constructor
+        2. copy constructor
+
+If class has one explicit constructor:
+    1. compiler will not define default constructor
+    2. compiler will define copy constructor when not defined explicitly
+
+Destructor: same name as class but with a ~ symbol in the beginning.
+    no return type
+    never takes arguments
+    cannot be overloaded
+    if no explicit destructor is found:
+        compiler defines it implicitly -- empty body destructor
+    it is invoked implicitly, just before the release of object from memory
+    it is an instance member
+    it can be used to free memory allocated inside object

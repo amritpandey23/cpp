@@ -1,0 +1,7 @@
+1. Constructor is a member of a class, whoes name is same as the name of the class.
+2. Its looks like a function but is not a function.
+3. It has no return type.
+4. It is invoked implicitly when an object is created.
+5. Constructor is an instance memeber.
+6. Construtor is called immediately after instance object of class is made.
+7. constructor does not create the object, neither does it allocate memory for member variables or function.

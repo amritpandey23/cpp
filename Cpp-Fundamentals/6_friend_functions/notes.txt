@@ -1,0 +1,9 @@
+A function can be a friend to a class known as friend function.
+A friend function can access any member of the class to which it is a friend.
+Friend function is declared inside the class which it is friend to.
+It is not a member function to the class
+It can access the private members or public members of a class in which it is declared
+A function can be member to one class and friend to another class
+You can define operators in class, known as operator overloading, can also be declared as 
+    friend
+A function can be friend to multiple classes
